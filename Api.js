@@ -21,3 +21,6 @@ app.listen(port,()=>{
 //to run the app Node.js-api\Restfulapi> node src/app.js
 
 
+//add this dependencies in package.json to run app fast
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
